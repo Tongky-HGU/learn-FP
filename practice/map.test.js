@@ -1,5 +1,5 @@
 import map from "./map";
-import users from "../fixtures/users";
+import { users } from "../fixtures";
 
 describe("map", () => {
   it("get ages", () => {

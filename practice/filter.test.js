@@ -1,5 +1,5 @@
 import filter from "./filter";
-import users from "../fixtures/users";
+import { users } from "../fixtures";
 
 describe("filter", () => {
   it("user over 35", () => {
