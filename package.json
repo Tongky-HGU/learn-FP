@@ -1,0 +1,23 @@
+{
+  "name": "learn-fp",
+  "version": "1.0.0",
+  "description": "functional javascript programming",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tongky-HGU/learn-FP.git"
+  },
+  "author": "SungHyun Cho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tongky-HGU/learn-FP/issues"
+  },
+  "homepage": "https://github.com/Tongky-HGU/learn-FP#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
