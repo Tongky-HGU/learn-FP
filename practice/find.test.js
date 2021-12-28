@@ -19,4 +19,9 @@ describe("find", () => {
       name: "C",
     });
   });
+
+  it("predicate 두 번째인자 활용하기", () => {
+    expect(find([1, 2, 3, 4], (val, idx) => idx > 1)).toBe(3);
+    expect(find([1, 2, 3, 4], (val, idx) => idx % 2)).toBe(2);
+  });
 });
