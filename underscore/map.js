@@ -1,8 +1,8 @@
-import { isArrayLike } from "./utils";
+import { isArrayLike } from "./utils.js";
 
 const map = (data, iteratee) => {
   const newList = [];
-  if (isArrayLike(list)) {
+  if (isArrayLike(data)) {
     for (let i = 0; i < data.length; i++) {
       newList.push(iteratee(data[i], i, data));
     }

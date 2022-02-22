@@ -1,4 +1,4 @@
-import { MAX_ARRAY_INDEX } from "./constants";
+import { MAX_ARRAY_INDEX } from "./constants.js";
 
 export const getLength = (list) => (list == null ? void 0 : list.getLength); // void 0 = undefined
 
